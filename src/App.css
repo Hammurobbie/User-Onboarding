@@ -1,0 +1,102 @@
+html {
+  background-image: url("https://www.huffinsurance.com/wp-content/uploads/2018/04/Computer-Hacker.jpg");
+  background-repeat: no-repeat;
+}
+
+.App {
+  text-align: center;
+  margin: 5% 10% 0 10%;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 5%;
+}
+
+.form {
+  background-color: rgba(89, 97, 82, 0.75);
+  padding: 5% 10% 5% 10%;
+}
+
+.field {
+  background-color: rgb(89, 97, 82);
+  color: #d4c31b;
+  font-size: 80%;
+  font-weight: bold;
+  border-radius: 25px;
+}
+
+::placeholder {
+  color: #d4c31b;
+  font-weight: bold;
+}
+
+.inputDiv {
+  padding: 0 3% 0 3%;
+}
+
+label {
+  width: 100%;
+  padding: 5% 0 5% 0;
+  font-size: 90%;
+  color: whitesmoke;
+}
+
+button {
+  width: 100%;
+  margin: 0 45% 0 45%;
+  background-color: #f1241e;
+  border-radius: 25px;
+  font-size: 80%;
+  font-weight: bold;
+  color: #eff1f0;
+}
+
+button:hover {
+  background-color: #ff8080;
+  transition: 0.85s;
+}
+.drop {
+  width: 100%;
+  margin: 5% 35% 0 35%;
+}
+
+h1 {
+  color: whitesmoke;
+  font-size: 230%;
+}
+
+.error {
+  color: #f1241e;
+  font-size: 70%;
+  padding-bottom: 3%;
+  display: block;
+}
+
+.thanksDiv {
+  background-color: rgba(89, 97, 82, 0.75);
+  color: #d4c31b;
+  margin-top: 2%;
+  padding: 2% 0 2% 0;
+}
